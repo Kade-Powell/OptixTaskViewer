@@ -1,0 +1,1499 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="style.css"><!-- Custom Styling / Override Bootstrap -->
+
+            <title>Optix Task Viewer</title>
+        </head>
+        
+        <body>
+        <div class="container-fluid">
+        <h1>All Assigned Projects: Any in Any</h1><table border="1" class="dataframe" id="myTable">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Assigned Tech</th>
+      <th>ProjID/CirID</th>
+      <th>Company Name</th>
+      <th>Task Type</th>
+      <th>District</th>
+      <th>Scheduled Date</th>
+      <th>Duration in Hours</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cornell Lain</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2762012" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2762012</a></td>
+      <td>Keith Dugas</td>
+      <td>Equipment Recovery</td>
+      <td>New Orleans</td>
+      <td>09/20/2017</td>
+      <td>5008.2</td>
+    </tr>
+    <tr>
+      <td>Paul Hagius</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2758061" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2758061</a></td>
+      <td>L3 WO-143300 WO-144413</td>
+      <td>Equipment Recovery</td>
+      <td>Lafayette</td>
+      <td>10/06/2017</td>
+      <td>4990.1</td>
+    </tr>
+    <tr>
+      <td>Jason Broussard</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2765915" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2765915</a></td>
+      <td>VRZ WO-206669  WO-206528</td>
+      <td>Equipment Recovery</td>
+      <td>Lafayette</td>
+      <td>11/06/2017</td>
+      <td>4579.5</td>
+    </tr>
+    <tr>
+      <td>Cornell Lain</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2769776" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2769776</a></td>
+      <td>ROME ARATA BAXLEY &amp; STELLY LLC.</td>
+      <td>Equipment Recovery</td>
+      <td>New Orleans</td>
+      <td>12/08/2017</td>
+      <td>4339.9</td>
+    </tr>
+    <tr>
+      <td>Cornell Lain</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2769025" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2769025</a></td>
+      <td>L3 WO-145637 WO-145640</td>
+      <td>Equipment Recovery</td>
+      <td>New Orleans</td>
+      <td>12/28/2017</td>
+      <td>3863.0</td>
+    </tr>
+    <tr>
+      <td>Cornell Lain</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2773932" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2773932</a></td>
+      <td>XO WO-232666  WO-232656</td>
+      <td>Equipment Recovery</td>
+      <td>New Orleans</td>
+      <td>02/20/2018</td>
+      <td>3684.2</td>
+    </tr>
+    <tr>
+      <td>Jason Broussard</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2779073" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2779073</a></td>
+      <td>VRZ WO-241741  WO-241706</td>
+      <td>Equipment Recovery</td>
+      <td>Lafayette</td>
+      <td>03/19/2018</td>
+      <td>3132.0</td>
+    </tr>
+    <tr>
+      <td>Paul Hagius</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2793197" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2793197</a></td>
+      <td>Windstream WO-286576  WO-286573</td>
+      <td>Equipment Recovery</td>
+      <td>Lafayette</td>
+      <td>09/04/2018</td>
+      <td>2717.9</td>
+    </tr>
+    <tr>
+      <td>Jason Adamic</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2439672" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2439672</a></td>
+      <td>OCSD - Destin Middle- MetroE</td>
+      <td>Pick Up Equipment</td>
+      <td>FWB</td>
+      <td>06/30/2018</td>
+      <td>2540.8</td>
+    </tr>
+    <tr>
+      <td>Jason Broussard</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2772891" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2772891</a></td>
+      <td>Windstream WO-150812 WO-150813</td>
+      <td>Equipment Recovery</td>
+      <td>Lafayette</td>
+      <td>02/07/2018</td>
+      <td>2535.7</td>
+    </tr>
+    <tr>
+      <td>Jason Broussard</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2753710" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2753710</a></td>
+      <td>TWT WO-131915  WO-131902</td>
+      <td>Equipment Recovery</td>
+      <td>Lafayette</td>
+      <td>07/04/2017</td>
+      <td>2535.6</td>
+    </tr>
+    <tr>
+      <td>Jason Broussard</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2755028" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2755028</a></td>
+      <td>VRZ WO-191535 WO-191538</td>
+      <td>Equipment Recovery</td>
+      <td>Lafayette</td>
+      <td>08/07/2017</td>
+      <td>2535.1</td>
+    </tr>
+    <tr>
+      <td>Jason Broussard</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2756693" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2756693</a></td>
+      <td>Cogent WO-139412 WO-139391 WO-139392</td>
+      <td>Equipment Recovery</td>
+      <td>Lafayette</td>
+      <td>08/03/2017</td>
+      <td>2534.7</td>
+    </tr>
+    <tr>
+      <td>Pebbles Blue</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2802596" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2802596</a></td>
+      <td>Jung Hotel</td>
+      <td>Turn Up &amp; Test</td>
+      <td>New Orleans</td>
+      <td>12/13/2019</td>
+      <td>2450.3</td>
+    </tr>
+    <tr>
+      <td>Pebbles Blue</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2797187" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2797187</a></td>
+      <td>Louisiana Avigilon CCT</td>
+      <td>Turn Up &amp; Test</td>
+      <td>Lafayette</td>
+      <td>12/25/2019</td>
+      <td>2309.1</td>
+    </tr>
+    <tr>
+      <td>Pebbles Blue</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2805049" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2805049</a></td>
+      <td>OLOL Ascension LLC DBA St. Elizabeth Physicians</td>
+      <td>Turn Up &amp; Test</td>
+      <td>Baton Rouge</td>
+      <td>12/25/2020</td>
+      <td>2270.1</td>
+    </tr>
+    <tr>
+      <td>Pebbles Blue</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2797185" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2797185</a></td>
+      <td>Louisana Avigilon CCTV Proj-Gonzales Retail</td>
+      <td>Turn Up &amp; Test</td>
+      <td>Baton Rouge</td>
+      <td>12/25/2019</td>
+      <td>2264.1</td>
+    </tr>
+    <tr>
+      <td>Pebbles Blue</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2797184" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2797184</a></td>
+      <td>Louisana Avigilon CCTV Proj-New Iberia Retail</td>
+      <td>Turn Up &amp; Test</td>
+      <td>Lafayette</td>
+      <td>12/25/2019</td>
+      <td>2264.1</td>
+    </tr>
+    <tr>
+      <td>Jason Broussard</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2780742" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2780742</a></td>
+      <td>ATT WO-232024  WO-232299</td>
+      <td>Equipment Recovery</td>
+      <td>Lafayette</td>
+      <td>04/25/2018</td>
+      <td>2133.0</td>
+    </tr>
+    <tr>
+      <td>Harold McGovern</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2795486" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2795486</a></td>
+      <td>Sprint WO-183496 WO-183493</td>
+      <td>Equipment Recovery</td>
+      <td>New Orleans</td>
+      <td>09/21/2018</td>
+      <td>2115.0</td>
+    </tr>
+    <tr>
+      <td>Marc Evangelista</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2800754" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2800754</a></td>
+      <td>CB CFI Backhaul 365 Canal - CIR 121464</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>10/30/2018</td>
+      <td>2091.9</td>
+    </tr>
+    <tr>
+      <td>Pebbles Blue</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2800754" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2800754</a></td>
+      <td>CB CFI Backhaul 365 Canal - CIR 121464</td>
+      <td>Turn Up &amp; Test</td>
+      <td>New Orleans</td>
+      <td>10/30/2018</td>
+      <td>2091.9</td>
+    </tr>
+    <tr>
+      <td>Jason Broussard</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2808621" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2808621</a></td>
+      <td>Earthlink WO-181851</td>
+      <td>Equipment Recovery</td>
+      <td>Lafayette</td>
+      <td>01/10/2019</td>
+      <td>2041.2</td>
+    </tr>
+    <tr>
+      <td>Jason Broussard</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2751216" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2751216</a></td>
+      <td>L3 WO-225960  WO-225903  WO-225901</td>
+      <td>Equipment Recovery</td>
+      <td>Lafayette</td>
+      <td>06/23/2017</td>
+      <td>2041.2</td>
+    </tr>
+    <tr>
+      <td>Harold McGovern</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2810882" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2810882</a></td>
+      <td>LEVEL 3</td>
+      <td>Equipment Recovery</td>
+      <td>New Orleans</td>
+      <td>01/07/2019</td>
+      <td>2041.1</td>
+    </tr>
+    <tr>
+      <td>Jason Broussard</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2808998" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2808998</a></td>
+      <td>XO WO-227929  WO-228155</td>
+      <td>Equipment Recovery</td>
+      <td>Lafayette</td>
+      <td>12/19/2018</td>
+      <td>2041.0</td>
+    </tr>
+    <tr>
+      <td>Harold McGovern</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2807106" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2807106</a></td>
+      <td>TW WO-132863  WO-132871</td>
+      <td>Equipment Recovery</td>
+      <td>New Orleans</td>
+      <td>12/26/2018</td>
+      <td>2040.9</td>
+    </tr>
+    <tr>
+      <td>Cornell Lain</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2796947" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2796947</a></td>
+      <td>Atmos Energy</td>
+      <td>Equipment Recovery</td>
+      <td>New Orleans</td>
+      <td>12/14/2018</td>
+      <td>2039.2</td>
+    </tr>
+    <tr>
+      <td>Jason Broussard</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2796949" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2796949</a></td>
+      <td>Atmos Energy</td>
+      <td>Equipment Recovery</td>
+      <td>Lafayette</td>
+      <td>12/21/2018</td>
+      <td>2039.2</td>
+    </tr>
+    <tr>
+      <td>Jason Broussard</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2765712" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2765712</a></td>
+      <td>Windstream WO-188050 WO-188047</td>
+      <td>Equipment Recovery</td>
+      <td>Lafayette</td>
+      <td>10/27/2017</td>
+      <td>2034.0</td>
+    </tr>
+    <tr>
+      <td>Harold McGovern</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2789374" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2789374</a></td>
+      <td>CR Shared Services LLC</td>
+      <td>Equipment Recovery</td>
+      <td>New Orleans</td>
+      <td>07/23/2018</td>
+      <td>2022.0</td>
+    </tr>
+    <tr>
+      <td>Harold McGovern</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2798266" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2798266</a></td>
+      <td>HUNT WO-133943  WO-133941</td>
+      <td>Equipment Recovery</td>
+      <td>New Orleans</td>
+      <td>10/05/2018</td>
+      <td>2002.7</td>
+    </tr>
+    <tr>
+      <td>Jason Broussard</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2800631" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2800631</a></td>
+      <td>Comcast WO-190631  WO-190612</td>
+      <td>Equipment Recovery</td>
+      <td>Lafayette</td>
+      <td>11/09/2018</td>
+      <td>2002.6</td>
+    </tr>
+    <tr>
+      <td>Cornell Lain</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2796948" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2796948</a></td>
+      <td>Atmos Energy</td>
+      <td>Equipment Recovery</td>
+      <td>New Orleans</td>
+      <td>12/07/2018</td>
+      <td>2002.4</td>
+    </tr>
+    <tr>
+      <td>Paul Hagius</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2809487" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2809487</a></td>
+      <td>Cogent WO-162340 WO-162348</td>
+      <td>Equipment Recovery</td>
+      <td>Lafayette</td>
+      <td>01/11/2019</td>
+      <td>2002.0</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2813435" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2813435</a></td>
+      <td>Woman`s Hospital</td>
+      <td>Circuit Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>01/28/2019</td>
+      <td>1973.7</td>
+    </tr>
+    <tr>
+      <td>Pebbles Blue</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2785799" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2785799</a></td>
+      <td>OTS # W18-18872 DCFS-Kaliste Saloom</td>
+      <td>Turn Up &amp; Test</td>
+      <td>Lafayette</td>
+      <td>12/25/2020</td>
+      <td>1884.8</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2815313" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2815313</a></td>
+      <td>Southern Eye Bank</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>02/11/2019</td>
+      <td>1874.0</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2818103" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2818103</a></td>
+      <td>South Market District C LLC Paramount</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>02/28/2019</td>
+      <td>1776.8</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2818268" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2818268</a></td>
+      <td>KIpp-Holy Rosary Campus</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>03/26/2019</td>
+      <td>1765.7</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2818751" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2818751</a></td>
+      <td>Level 3 Master</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>03/27/2019</td>
+      <td>1754.4</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2818948" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2818948</a></td>
+      <td>Whitney Bank</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>03/15/2019</td>
+      <td>1741.3</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2818954" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2818954</a></td>
+      <td>Whitney Bank- One Shell Square</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>03/15/2019</td>
+      <td>1741.1</td>
+    </tr>
+    <tr>
+      <td>Pebbles Blue</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2818688" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2818688</a></td>
+      <td>Jung Hotel</td>
+      <td>Turn Up &amp; Test</td>
+      <td>New Orleans</td>
+      <td>12/13/2019</td>
+      <td>1736.5</td>
+    </tr>
+    <tr>
+      <td>Pebbles Blue</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2808336" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2808336</a></td>
+      <td>Ideal Appliances</td>
+      <td>Turn Up &amp; Test</td>
+      <td>Lafayette</td>
+      <td>12/25/2020</td>
+      <td>1735.8</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2819811" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2819811</a></td>
+      <td>LCMC Children`s Pediatrics Tulane</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>03/12/2019</td>
+      <td>1692.0</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2816367" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2816367</a></td>
+      <td>Methanex G3 Project</td>
+      <td>Circuit Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>02/28/2019</td>
+      <td>1683.5</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2819842" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2819842</a></td>
+      <td>BR Dept of Info Services</td>
+      <td>Circuit Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>03/19/2019</td>
+      <td>1647.0</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2820501" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2820501</a></td>
+      <td>LOUISIANA SCRAP METAL RECYCLING</td>
+      <td>Circuit Provisioning</td>
+      <td>Lafayette</td>
+      <td>03/29/2019</td>
+      <td>1646.5</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2820888" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2820888</a></td>
+      <td>Brian Harris Audi CPO</td>
+      <td>Circuit Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>03/20/2019</td>
+      <td>1638.0</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2821421" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2821421</a></td>
+      <td>Sterling ? LSU 3 LLC</td>
+      <td>Circuit Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>03/22/2019</td>
+      <td>1614.3</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2822803" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2822803</a></td>
+      <td>Global Crossing Master Account</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>04/25/2019</td>
+      <td>1535.3</td>
+    </tr>
+    <tr>
+      <td>Walter Rutland</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2793756" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2793756</a></td>
+      <td>Sprint - NL33XC009</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>12/30/2020</td>
+      <td>1534.2</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2824843" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2824843</a></td>
+      <td>LCMC Metairie Pediatrics</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>04/23/2019</td>
+      <td>1415.4</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2825609" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2825609</a></td>
+      <td>Lazarus Services LLc</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>05/03/2019</td>
+      <td>1350.5</td>
+    </tr>
+    <tr>
+      <td>Jason Marks</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2822407" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2822407</a></td>
+      <td>Bridal Glory International</td>
+      <td>Circuit Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>03/29/2019</td>
+      <td>1330.7</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2826779" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2826779</a></td>
+      <td>Cabrini High School</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>05/30/2019</td>
+      <td>1303.9</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2826473" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2826473</a></td>
+      <td>IX ACP Hotel Owner LP d/b/a Astor Crowne Plaza New Orleans</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>05/31/2019</td>
+      <td>1289.8</td>
+    </tr>
+    <tr>
+      <td>Jason Adamic</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2458662" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2458662</a></td>
+      <td>Eglin Federal Credit Union</td>
+      <td>Equipment Install &amp; Cut-In</td>
+      <td>FWB</td>
+      <td>12/25/2020</td>
+      <td>1232.1</td>
+    </tr>
+    <tr>
+      <td>Caleb McKinney</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2456219" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2456219</a></td>
+      <td>HCA -West Florida Hospital</td>
+      <td>Circuit Provisioning</td>
+      <td>PNS</td>
+      <td>06/28/2019</td>
+      <td>1218.0</td>
+    </tr>
+    <tr>
+      <td>Pebbles Blue</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2824458" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2824458</a></td>
+      <td>Cox Sec 21</td>
+      <td>Turn Up &amp; Test</td>
+      <td>Lafayette</td>
+      <td>05/03/2019</td>
+      <td>1212.7</td>
+    </tr>
+    <tr>
+      <td>Kade Powell</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2440718" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2440718</a></td>
+      <td>BCSD - BURGHARD ELEMENTARY SCHOOL</td>
+      <td>HI-CAP IP/CIDR Disconnect</td>
+      <td>Georgia</td>
+      <td>07/18/2018</td>
+      <td>1204.6</td>
+    </tr>
+    <tr>
+      <td>Kade Powell</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2440540" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2440540</a></td>
+      <td>BCSD - RICE ELEMENTARY SCHOOL</td>
+      <td>HI-CAP IP/CIDR Disconnect</td>
+      <td>Georgia</td>
+      <td>07/13/2018</td>
+      <td>1204.6</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2828110" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2828110</a></td>
+      <td>Iberia Parish Willowwood Recreation</td>
+      <td>Circuit Provisioning</td>
+      <td>Lafayette</td>
+      <td>05/29/2019</td>
+      <td>1189.6</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2460101" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2460101</a></td>
+      <td>NAPA Auto Parts</td>
+      <td>Circuit Provisioning</td>
+      <td>PNS</td>
+      <td>06/20/2019</td>
+      <td>1173.9</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2459920" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2459920</a></td>
+      <td>Adergy Inc.</td>
+      <td>Circuit Provisioning</td>
+      <td>PNS</td>
+      <td>09/16/2019</td>
+      <td>1170.0</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2828796" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2828796</a></td>
+      <td>Pinnacle</td>
+      <td>Circuit Provisioning</td>
+      <td>Lafayette</td>
+      <td>06/03/2019</td>
+      <td>1165.2</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2828264" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2828264</a></td>
+      <td>General Health System - Main Z</td>
+      <td>Circuit Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>06/14/2019</td>
+      <td>1147.6</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2829571" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2829571</a></td>
+      <td>The Baton Rouge Clinic</td>
+      <td>Circuit Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>06/05/2019</td>
+      <td>1116.0</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2464707" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2464707</a></td>
+      <td>Shand`s Teaching Hospital and Clinics</td>
+      <td>Service Activation &amp; Testing</td>
+      <td>Gainesville</td>
+      <td>05/31/2019</td>
+      <td>1116.0</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2829770" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2829770</a></td>
+      <td>Baton Rouge Radiology Group</td>
+      <td>Circuit Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>06/10/2019</td>
+      <td>1110.3</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2829766" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2829766</a></td>
+      <td>Baton Rouge Radiology Group - Physician`s Tower</td>
+      <td>Circuit Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>06/07/2019</td>
+      <td>1107.7</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2829907" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2829907</a></td>
+      <td>CNO ME NORDC Stallings Playground</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>06/10/2019</td>
+      <td>1106.5</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2830311" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2830311</a></td>
+      <td>Sprint WO-179198  WO-179141</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>07/11/2019</td>
+      <td>1105.5</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2827101" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2827101</a></td>
+      <td>Skyhawk</td>
+      <td>Circuit Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>06/07/2019</td>
+      <td>1099.1</td>
+    </tr>
+    <tr>
+      <td>Robb Marcus</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2828263" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2828263</a></td>
+      <td>General Health System - Old Scenic</td>
+      <td>Equipment Recovery</td>
+      <td>Baton Rouge</td>
+      <td>05/30/2019</td>
+      <td>1080.0</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2828263" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2828263</a></td>
+      <td>General Health System - Old Scenic</td>
+      <td>Circuit Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>05/30/2019</td>
+      <td>1080.0</td>
+    </tr>
+    <tr>
+      <td>Robb Marcus</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2828695" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2828695</a></td>
+      <td>Sprint WO-136340 WO-136339</td>
+      <td>Equipment Recovery</td>
+      <td>New Orleans</td>
+      <td>06/20/2019</td>
+      <td>1080.0</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2831137" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2831137</a></td>
+      <td>807 Esplanade Avenue MT LLC</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>06/19/2019</td>
+      <td>1058.9</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2826605" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2826605</a></td>
+      <td>SMPSB - ST MARTIN PARISH EARLY LEARNINGCENTER</td>
+      <td>Circuit Provisioning</td>
+      <td>Lafayette</td>
+      <td>08/01/2019</td>
+      <td>1023.1</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2831384" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2831384</a></td>
+      <td>Lafayette Public Library - Main Branch</td>
+      <td>Circuit Provisioning</td>
+      <td>Lafayette</td>
+      <td>06/28/2019</td>
+      <td>981.0</td>
+    </tr>
+    <tr>
+      <td>Jason Andrews</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2467347" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2467347</a></td>
+      <td>The Surgery Group</td>
+      <td>Equipment Staging</td>
+      <td>PNS</td>
+      <td>12/25/2020</td>
+      <td>950.1</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2833530" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2833530</a></td>
+      <td>Comcast</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>08/09/2019</td>
+      <td>912.9</td>
+    </tr>
+    <tr>
+      <td>Jason Andrews</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2462673" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2462673</a></td>
+      <td>CB Tower Locations: 16911</td>
+      <td>Install Turn Up &amp; Test</td>
+      <td>FWB</td>
+      <td>06/27/2019</td>
+      <td>864.0</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2833376" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2833376</a></td>
+      <td>Crowne Plaza Baton Rouge</td>
+      <td>Circuit Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>07/11/2019</td>
+      <td>782.4</td>
+    </tr>
+    <tr>
+      <td>Jonathan Brewster</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2459461" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2459461</a></td>
+      <td>BCSD - COLLOCATION</td>
+      <td>Circuit Provisioning</td>
+      <td>Georgia</td>
+      <td>07/01/2019</td>
+      <td>774.0</td>
+    </tr>
+    <tr>
+      <td>Chad Bridges</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2459461" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2459461</a></td>
+      <td>BCSD - COLLOCATION</td>
+      <td>Install Turn Up &amp; Test</td>
+      <td>Georgia</td>
+      <td>07/01/2019</td>
+      <td>774.0</td>
+    </tr>
+    <tr>
+      <td>Kade Powell</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2833499" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2833499</a></td>
+      <td>Paetec</td>
+      <td>Service Activation &amp; Testing</td>
+      <td>Baton Rouge</td>
+      <td>10/28/2019</td>
+      <td>562.9</td>
+    </tr>
+    <tr>
+      <td>Jeff Gubics</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3236339" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3236339</a></td>
+      <td>Shand`s Teaching Hospital and Clinics</td>
+      <td>Equipment Staging</td>
+      <td>Gainesville</td>
+      <td>11/28/2019</td>
+      <td>306.0</td>
+    </tr>
+    <tr>
+      <td>Kade Powell</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3237230" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3237230</a></td>
+      <td>CenturyLink - 1301 CAMELLIA BLVD</td>
+      <td>Service Activation &amp; Testing</td>
+      <td>Lafayette</td>
+      <td>10/30/2019</td>
+      <td>226.4</td>
+    </tr>
+    <tr>
+      <td>Chad Bridges</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3198669" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3198669</a></td>
+      <td>Southern Primary Care</td>
+      <td>Fiber Turn Up &amp; Test</td>
+      <td>Georgia</td>
+      <td>12/10/2019</td>
+      <td>224.8</td>
+    </tr>
+    <tr>
+      <td>Jason Adamic</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3216694" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3216694</a></td>
+      <td>AT&amp;T</td>
+      <td>Equipment Staging</td>
+      <td>FWB</td>
+      <td>12/19/2019</td>
+      <td>216.0</td>
+    </tr>
+    <tr>
+      <td>Jason Adamic</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3226826" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3226826</a></td>
+      <td>AT&amp;T</td>
+      <td>Equipment Staging</td>
+      <td>FWB</td>
+      <td>12/25/2020</td>
+      <td>216.0</td>
+    </tr>
+    <tr>
+      <td>Chad Bridges</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4030048" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4030048</a></td>
+      <td>Southern Primary Care</td>
+      <td>Fiber Turn Up &amp; Test</td>
+      <td>Georgia</td>
+      <td>12/12/2019</td>
+      <td>202.9</td>
+    </tr>
+    <tr>
+      <td>Chad Bridges</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3205764" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3205764</a></td>
+      <td>Verizon</td>
+      <td>Equipment Staging</td>
+      <td>Georgia</td>
+      <td>12/18/2019</td>
+      <td>190.8</td>
+    </tr>
+    <tr>
+      <td>Ashley Grimes</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3235160" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3235160</a></td>
+      <td>ST MARTIN PARISH SHERIFFS OFFICE</td>
+      <td>Service Activation &amp; Testing</td>
+      <td>Lafayette</td>
+      <td>12/05/2019</td>
+      <td>174.3</td>
+    </tr>
+    <tr>
+      <td>Chad Hayward</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4032669" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4032669</a></td>
+      <td>TownePlaces Suites Summa Ave</td>
+      <td>Equipment Staging</td>
+      <td>Baton Rouge</td>
+      <td>12/20/2019</td>
+      <td>166.1</td>
+    </tr>
+    <tr>
+      <td>Mary Schwartz</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3232827" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3232827</a></td>
+      <td>THE QUARTERS OFFICE</td>
+      <td>Service Activation &amp; Testing</td>
+      <td>Lafayette</td>
+      <td>12/05/2019</td>
+      <td>162.0</td>
+    </tr>
+    <tr>
+      <td>Harold McGovern</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4044762" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4044762</a></td>
+      <td>Edna Karr HS</td>
+      <td>Equipment Staging</td>
+      <td>New Orleans</td>
+      <td>01/30/2020</td>
+      <td>149.8</td>
+    </tr>
+    <tr>
+      <td>Chad Bridges</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3233402" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3233402</a></td>
+      <td>Blue Bird Body Company</td>
+      <td>Fiber Turn Up &amp; Test</td>
+      <td>Georgia</td>
+      <td>12/04/2019</td>
+      <td>135.0</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4051639" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4051639</a></td>
+      <td>AT&amp;T</td>
+      <td>Network Provisioning</td>
+      <td>Lafayette</td>
+      <td>12/04/2019</td>
+      <td>135.0</td>
+    </tr>
+    <tr>
+      <td>Harold McGovern</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3209748" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3209748</a></td>
+      <td>WDSU New Orleans Hearst-Argyle Inc</td>
+      <td>Equipment Staging</td>
+      <td>New Orleans</td>
+      <td>01/24/2020</td>
+      <td>117.0</td>
+    </tr>
+    <tr>
+      <td>Jason Adamic</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4032532" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4032532</a></td>
+      <td>SACRED HEART HOSPITAL</td>
+      <td>Equipment Staging</td>
+      <td>FWB</td>
+      <td>12/18/2019</td>
+      <td>101.5</td>
+    </tr>
+    <tr>
+      <td>Harold McGovern</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4039841" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4039841</a></td>
+      <td>Masergy Communications Inc</td>
+      <td>Equipment Staging</td>
+      <td>New Orleans</td>
+      <td>03/26/2020</td>
+      <td>101.1</td>
+    </tr>
+    <tr>
+      <td>Jason Marks</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4765550" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4765550</a></td>
+      <td>Switch</td>
+      <td>Network Provisioning</td>
+      <td>New Orleans</td>
+      <td>12/09/2019</td>
+      <td>99.0</td>
+    </tr>
+    <tr>
+      <td>Jason Adamic</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2834528" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2834528</a></td>
+      <td>NORTHWEST FL DAILY NEWS</td>
+      <td>Fiber Turn Up &amp; Test</td>
+      <td>FWB</td>
+      <td>11/20/2019</td>
+      <td>99.0</td>
+    </tr>
+    <tr>
+      <td>Kade Powell</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2455391" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2455391</a></td>
+      <td>UWF - INNOVATION INSTITUTE</td>
+      <td>Circuit Provisioning</td>
+      <td>PNS</td>
+      <td>11/19/2019</td>
+      <td>99.0</td>
+    </tr>
+    <tr>
+      <td>Kade Powell</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2456718" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2456718</a></td>
+      <td>Baptist Health Care</td>
+      <td>Circuit Provisioning</td>
+      <td>PNS</td>
+      <td>11/19/2019</td>
+      <td>99.0</td>
+    </tr>
+    <tr>
+      <td>Chad Hayward</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4054842" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4054842</a></td>
+      <td>Sprint</td>
+      <td>Equipment Staging</td>
+      <td>Baton Rouge</td>
+      <td>01/16/2020</td>
+      <td>94.5</td>
+    </tr>
+    <tr>
+      <td>Harold McGovern</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4028308" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4028308</a></td>
+      <td>Jefferson Parish - EB Water Plant</td>
+      <td>Equipment Staging</td>
+      <td>New Orleans</td>
+      <td>12/18/2019</td>
+      <td>90.0</td>
+    </tr>
+    <tr>
+      <td>Harold McGovern</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4042189" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4042189</a></td>
+      <td>The Ehrhardt Group</td>
+      <td>Equipment Staging</td>
+      <td>New Orleans</td>
+      <td>12/06/2019</td>
+      <td>88.0</td>
+    </tr>
+    <tr>
+      <td>Jason Andrews</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3236974" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3236974</a></td>
+      <td>GULF COAST PAIN CONSULTANTS DBA CLEARWAY PAIN SOLUTIONS INSTITUTE</td>
+      <td>Equipment Staging</td>
+      <td>PNS</td>
+      <td>12/25/2020</td>
+      <td>87.7</td>
+    </tr>
+    <tr>
+      <td>Michael Piper</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4773769" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4773769</a></td>
+      <td>PBF Holding Company</td>
+      <td>Network Provisioning</td>
+      <td>New Orleans</td>
+      <td>11/18/2019</td>
+      <td>72.0</td>
+    </tr>
+    <tr>
+      <td>Harold McGovern</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4766471" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4766471</a></td>
+      <td>PARKWAY BAKERY AND TAVERN</td>
+      <td>Equipment Staging</td>
+      <td>New Orleans</td>
+      <td>12/25/2019</td>
+      <td>72.0</td>
+    </tr>
+    <tr>
+      <td>Jason Adamic</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3217698" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3217698</a></td>
+      <td>KING INSURANCE</td>
+      <td>Equipment Staging</td>
+      <td>Ocala</td>
+      <td>12/11/2019</td>
+      <td>72.0</td>
+    </tr>
+    <tr>
+      <td>Jason Andrews</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3211286" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3211286</a></td>
+      <td>SETTIMIO CONSULTING</td>
+      <td>Equipment Staging</td>
+      <td>PNS</td>
+      <td>12/25/2020</td>
+      <td>72.0</td>
+    </tr>
+    <tr>
+      <td>Jason Andrews</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3233055" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3233055</a></td>
+      <td>Cox Solutions Store</td>
+      <td>Equipment Staging</td>
+      <td>PNS</td>
+      <td>12/25/2019</td>
+      <td>72.0</td>
+    </tr>
+    <tr>
+      <td>Jason Andrews</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3238595" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3238595</a></td>
+      <td>MMW Holdings LLC</td>
+      <td>Equipment Staging</td>
+      <td>PNS</td>
+      <td>12/25/2020</td>
+      <td>72.0</td>
+    </tr>
+    <tr>
+      <td>Jason Adamic</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3218592" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3218592</a></td>
+      <td>AT&amp;T</td>
+      <td>Equipment Staging</td>
+      <td>FWB</td>
+      <td>12/13/2019</td>
+      <td>72.0</td>
+    </tr>
+    <tr>
+      <td>Scotty McGinn</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4780083" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4780083</a></td>
+      <td>Williams Kenner Hotel Associates LLC d/b/a Hilton Garden Inn New Orleans Airport Kenner</td>
+      <td>Network Provisioning</td>
+      <td>New Orleans</td>
+      <td>11/21/2019</td>
+      <td>71.0</td>
+    </tr>
+    <tr>
+      <td>Chad Hayward</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4032705" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4032705</a></td>
+      <td>TownePlaces Suites Summa Ave</td>
+      <td>Equipment Staging</td>
+      <td>Baton Rouge</td>
+      <td>12/16/2019</td>
+      <td>63.0</td>
+    </tr>
+    <tr>
+      <td>Paul Hagius</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3213249" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3213249</a></td>
+      <td>CHITIMACHA POLICE DEPARTMENT</td>
+      <td>Equipment Staging</td>
+      <td>Lafayette</td>
+      <td>01/24/2020</td>
+      <td>63.0</td>
+    </tr>
+    <tr>
+      <td>Jeff Williams</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3220874" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3220874</a></td>
+      <td>IPACKET - GRAND MARINER OWNERS ASSN</td>
+      <td>Network Provisioning</td>
+      <td>FWB</td>
+      <td>12/06/2019</td>
+      <td>63.0</td>
+    </tr>
+    <tr>
+      <td>Scotty McGinn</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4043162" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4043162</a></td>
+      <td>Skyhawk Group - Pinnacle Casino</td>
+      <td>Network Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>12/18/2019</td>
+      <td>63.0</td>
+    </tr>
+    <tr>
+      <td>Jeff Gubics</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4034442" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4034442</a></td>
+      <td>KELLER WILLIAMS REALTY</td>
+      <td>Service Activation &amp; Testing</td>
+      <td>Ocala</td>
+      <td>11/27/2019</td>
+      <td>54.0</td>
+    </tr>
+    <tr>
+      <td>Chad Hayward</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4029500" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4029500</a></td>
+      <td>Choctaw Provision Company</td>
+      <td>Equipment Staging</td>
+      <td>Baton Rouge</td>
+      <td>12/25/2020</td>
+      <td>54.0</td>
+    </tr>
+    <tr>
+      <td>Walter Rutland</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2790813" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2790813</a></td>
+      <td>Sprint - NL03XC403</td>
+      <td>Circuit Provisioning</td>
+      <td>New Orleans</td>
+      <td>12/05/2019</td>
+      <td>50.4</td>
+    </tr>
+    <tr>
+      <td>Kade Powell</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4779551" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4779551</a></td>
+      <td>CNO ME OPCD Operations</td>
+      <td>Network Provisioning</td>
+      <td>New Orleans</td>
+      <td>12/06/2019</td>
+      <td>48.9</td>
+    </tr>
+    <tr>
+      <td>Chad Bridges</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4050054" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4050054</a></td>
+      <td>Global Internetworking</td>
+      <td>Fiber Turn Up &amp; Test</td>
+      <td>Georgia</td>
+      <td>12/06/2019</td>
+      <td>44.4</td>
+    </tr>
+    <tr>
+      <td>Chad Hayward</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4029335" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4029335</a></td>
+      <td>Hyatt Place</td>
+      <td>Equipment Staging</td>
+      <td>Baton Rouge</td>
+      <td>12/11/2019</td>
+      <td>40.8</td>
+    </tr>
+    <tr>
+      <td>Jeff Gubics</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3232621" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3232621</a></td>
+      <td>SBMC The School Board of Marion County Florida</td>
+      <td>Fiber Turn Up &amp; Test</td>
+      <td>Ocala</td>
+      <td>11/29/2019</td>
+      <td>36.0</td>
+    </tr>
+    <tr>
+      <td>Scotty McGinn</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3206299" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3206299</a></td>
+      <td>Autumn O. Beck PLLC</td>
+      <td>Network Provisioning</td>
+      <td>PNS</td>
+      <td>12/25/2020</td>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <td>Chad Hayward</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3217052" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3217052</a></td>
+      <td>AT&amp;T</td>
+      <td>Equipment Staging</td>
+      <td>Baton Rouge</td>
+      <td>01/07/2020</td>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <td>Jason Andrews</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4772487" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4772487</a></td>
+      <td>VERIZON</td>
+      <td>Equipment Staging</td>
+      <td>PNS</td>
+      <td>12/05/2019</td>
+      <td>27.0</td>
+    </tr>
+    <tr>
+      <td>Chad Hayward</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4030561" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4030561</a></td>
+      <td>Level 3 Communications</td>
+      <td>Equipment Staging</td>
+      <td>Baton Rouge</td>
+      <td>01/07/2020</td>
+      <td>26.8</td>
+    </tr>
+    <tr>
+      <td>Scotty McGinn</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4030561" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4030561</a></td>
+      <td>Level 3 Communications</td>
+      <td>Network Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>01/07/2020</td>
+      <td>26.8</td>
+    </tr>
+    <tr>
+      <td>Jeff Williams</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4055009" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4055009</a></td>
+      <td>IHG ARACW CANDLEWOOD SUITES</td>
+      <td>Network Provisioning</td>
+      <td>Lafayette</td>
+      <td>01/31/2020</td>
+      <td>23.1</td>
+    </tr>
+    <tr>
+      <td>Scotty McGinn</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4036398" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4036398</a></td>
+      <td>Level 3 Communications</td>
+      <td>Network Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>01/16/2020</td>
+      <td>23.0</td>
+    </tr>
+    <tr>
+      <td>Abigail Solomon</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4035680" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4035680</a></td>
+      <td>EBR Sheriff Office</td>
+      <td>Service Activation &amp; Testing</td>
+      <td>Baton Rouge</td>
+      <td>12/10/2019</td>
+      <td>16.4</td>
+    </tr>
+    <tr>
+      <td>Chris Evans</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4031236" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4031236</a></td>
+      <td>Level 3</td>
+      <td>Equipment Staging</td>
+      <td>Georgia</td>
+      <td>12/05/2019</td>
+      <td>13.3</td>
+    </tr>
+    <tr>
+      <td>Kade Powell</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4031236" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4031236</a></td>
+      <td>Level 3</td>
+      <td>Network Provisioning</td>
+      <td>Georgia</td>
+      <td>12/05/2019</td>
+      <td>13.3</td>
+    </tr>
+    <tr>
+      <td>Kade Powell</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4052142" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4052142</a></td>
+      <td>T Mobile Cell Site NO00065B</td>
+      <td>Network Provisioning</td>
+      <td>New Orleans</td>
+      <td>12/18/2019</td>
+      <td>12.6</td>
+    </tr>
+    <tr>
+      <td>Paul Hagius</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3216215" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3216215</a></td>
+      <td>Mitchell Lift Boats LLC</td>
+      <td>Equipment Staging</td>
+      <td>Lafayette</td>
+      <td>12/05/2019</td>
+      <td>12.6</td>
+    </tr>
+    <tr>
+      <td>Kade Powell</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4051780" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4051780</a></td>
+      <td>T-Mobile NO00420A</td>
+      <td>Network Provisioning</td>
+      <td>New Orleans</td>
+      <td>12/19/2019</td>
+      <td>12.6</td>
+    </tr>
+    <tr>
+      <td>Kade Powell</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4051199" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4051199</a></td>
+      <td>T Mobile cell site NO00009A</td>
+      <td>Network Provisioning</td>
+      <td>New Orleans</td>
+      <td>12/16/2019</td>
+      <td>12.6</td>
+    </tr>
+    <tr>
+      <td>Chad Hayward</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3229036" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3229036</a></td>
+      <td>R.T. Casey LLC</td>
+      <td>Managed Services CPE Staging</td>
+      <td>New Orleans</td>
+      <td>12/20/2019</td>
+      <td>12.5</td>
+    </tr>
+    <tr>
+      <td>Kade Powell</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4774079" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4774079</a></td>
+      <td>Kaptel</td>
+      <td>Network Provisioning</td>
+      <td>Lafayette</td>
+      <td>12/06/2019</td>
+      <td>12.3</td>
+    </tr>
+    <tr>
+      <td>Matt Brown</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3237493" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3237493</a></td>
+      <td>Pavlov WO-177512 WO-177511</td>
+      <td>Network Provisioning</td>
+      <td>Gainesville</td>
+      <td>12/11/2019</td>
+      <td>7.9</td>
+    </tr>
+    <tr>
+      <td>Chad Bridges</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3237502" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3237502</a></td>
+      <td>MERCER UNIVERSITY</td>
+      <td>Equipment Staging</td>
+      <td>Georgia</td>
+      <td>12/11/2019</td>
+      <td>7.6</td>
+    </tr>
+    <tr>
+      <td>Matt Brown</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3235075" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3235075</a></td>
+      <td>MERCER UNIVERSITY - MERCER LOFTS IV</td>
+      <td>Network Provisioning</td>
+      <td>Georgia</td>
+      <td>12/11/2019</td>
+      <td>7.6</td>
+    </tr>
+    <tr>
+      <td>Matt Brown</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4776171" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4776171</a></td>
+      <td>Mercer University</td>
+      <td>Network Provisioning</td>
+      <td>Georgia</td>
+      <td>12/11/2019</td>
+      <td>7.6</td>
+    </tr>
+    <tr>
+      <td>Matt Brown</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3235074" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3235074</a></td>
+      <td>MERCER UNIVERSITY - McDUFFIE CENTER</td>
+      <td>Network Provisioning</td>
+      <td>Georgia</td>
+      <td>12/11/2019</td>
+      <td>7.6</td>
+    </tr>
+    <tr>
+      <td>Matt Brown</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3235073" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3235073</a></td>
+      <td>Mercer University</td>
+      <td>Network Provisioning</td>
+      <td>Georgia</td>
+      <td>12/11/2019</td>
+      <td>7.6</td>
+    </tr>
+    <tr>
+      <td>Matt Brown</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3235069" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3235069</a></td>
+      <td>MERCER UNIVERSITY</td>
+      <td>Network Provisioning</td>
+      <td>Georgia</td>
+      <td>12/11/2019</td>
+      <td>7.6</td>
+    </tr>
+    <tr>
+      <td>Matt Brown</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3237502" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3237502</a></td>
+      <td>MERCER UNIVERSITY</td>
+      <td>Network Provisioning</td>
+      <td>Georgia</td>
+      <td>12/11/2019</td>
+      <td>7.6</td>
+    </tr>
+    <tr>
+      <td>Matt Brown</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3235076" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3235076</a></td>
+      <td>MERCER UNIVERSITY - MEDICAL EDUCATION</td>
+      <td>Network Provisioning</td>
+      <td>Georgia</td>
+      <td>12/11/2019</td>
+      <td>7.6</td>
+    </tr>
+    <tr>
+      <td>Matt Brown</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=3235070" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=3235070</a></td>
+      <td>MERCER UNIVERSITY</td>
+      <td>Network Provisioning</td>
+      <td>Georgia</td>
+      <td>12/11/2019</td>
+      <td>7.6</td>
+    </tr>
+    <tr>
+      <td>Jason Marks</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=4793103" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=4793103</a></td>
+      <td>MERCER UNIVERSITY</td>
+      <td>Network Provisioning</td>
+      <td>Georgia</td>
+      <td>12/11/2019</td>
+      <td>7.3</td>
+    </tr>
+    <tr>
+      <td>Walter Rutland</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2790715" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2790715</a></td>
+      <td>Sprint - NL03ME012</td>
+      <td>Circuit Provisioning</td>
+      <td>Baton Rouge</td>
+      <td>12/06/2019</td>
+      <td>2.2</td>
+    </tr>
+    <tr>
+      <td>Chad Hayward</td>
+      <td><a href="https://optix.cox.com/prime/accounts/proj/view.asp?projid=2790715" target="_blank">https://optix.cox.com/prime/accounts/proj/view.asp?projid=2790715</a></td>
+      <td>Sprint - NL03ME012</td>
+      <td>Turn Up &amp; Test - Wholesale</td>
+      <td>Baton Rouge</td>
+      <td>12/06/2019</td>
+      <td>2.2</td>
+    </tr>
+  </tbody>
+</table>
+
+        <footer>
+        <!-- Bootstrap core JavaScript -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
+
+        <!-- User JavaScript Section -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script>
+        $(document).ready( function() {
+            // Turn existing table addressed by its id `myTable` into datatable
+            $("#myTable").DataTable();
+        });
+        
+        </script>
+        <!-- User JavaScript Section END -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        </footer>
+        </div>
+        </body>
+        
